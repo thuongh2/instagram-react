@@ -10,7 +10,6 @@ function Profile(props) {
     iconSize,
     image,
     captionSize,
-    storyBorder,
     hideAccountName,
   } = props;
 
