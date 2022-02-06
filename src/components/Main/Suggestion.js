@@ -1,4 +1,4 @@
-import "../styles/suggestion.scss";
+import "../../styles/suggestion.scss";
 import Profile from "./Profile";
 
 function Suggestion() {

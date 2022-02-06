@@ -1,0 +1,109 @@
+@import "variables.scss";
+
+.formLogin {
+  margin-top: 12px;
+  border: 1px solid $border-color-grey;
+  border-radius: 3px;
+  min-width: 350px;
+  height: 380px;
+  font: $font;
+
+  h1 {
+    margin: 32px 85px;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    input {
+      border: 1px solid $border-color-grey;
+      border-radius: 3px;
+      padding: 5px;
+      height: 36px;
+      width: 75%;
+      margin: 3px;
+      font-size: 13px;
+    }
+
+    .inputForm {
+      margin: 15px 0;
+      text-align: center;
+    }
+
+    .formSubmit {
+      margin-top: 10px;
+      background-color: $link-color-secondary;
+      color: $background-white;
+    }
+
+    .formFacebook {
+      color: #385185;
+      font-weight: 700;
+    }
+
+    .facebookIcon {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+    }
+
+    .inputLink {
+      font-size: 13px;
+      text-decoration: none;
+    }
+  }
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid $border-color-grey;
+  margin: 10px 0;
+  height: 63px;
+
+  a{
+    color: blue;
+    text-decoration: none;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.loginDownload {
+  .loginGetApp {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .loginIcon{
+    display: flex;
+    justify-content:center;
+
+    img {
+      width: 136px;
+      height: 40px;
+      padding-right: 8px;
+
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .formLogin {
+    border: none;
+  }
+
+  .signUp{
+    border: none;
+  }
+}

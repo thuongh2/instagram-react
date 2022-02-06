@@ -1,4 +1,4 @@
-import "../styles/ProfileIcon.scss";
+import "../../styles/ProfileIcon.scss";
 
 function ProfileIcon(props) {
   const { iconSize, storyBorder, image } = props;

@@ -1,9 +1,9 @@
-import "../styles/sidebar.scss";
+import "../../styles/sidebar.scss";
 import Sticky from "react-sticky-el";
 import Profile from "./Profile.js";
 import Suggestion from "./Suggestion.js";
 import Footer from "./Footer.js";
-import image from "../images/profile.jpg";
+import image from "../../images/profile.jpg";
 
 function Sidebar() {
   return (

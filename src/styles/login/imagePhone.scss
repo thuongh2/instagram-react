@@ -1,0 +1,21 @@
+.imagePhone {
+  position: relative;
+  background-image: url("https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png");
+  color: #000;
+  width: 454px;
+  height: 618px;
+
+  .imageSlide {
+    height: 427px;
+    position: absolute;
+    right: 63px;
+    bottom: 91px;
+    width: 240px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .imagePhone {
+    display: none;
+  }
+}

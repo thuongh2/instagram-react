@@ -1,6 +1,6 @@
-import "../styles/Navigation.scss";
-import logo from "../images/instagramLogo.png";
-import searchIcon from "../images/searchIcon.png";
+import "../../styles/Navigation.scss";
+import logo from "../../images/instagramLogo.png";
+import searchIcon from "../../images/searchIcon.png";
 import Menu from "./Menu.js";
 
 
@@ -11,7 +11,7 @@ function Navigation() {
         <img className="logo" src={logo} alt="" />
         <div className="search">
           <img className="searchIcon" src={searchIcon} alt="instagram logo" />
-          <span className="searchText">Search</span>
+          <input className="searchText" placeholder="Search"></input>
         </div>
         <Menu />
       </div>

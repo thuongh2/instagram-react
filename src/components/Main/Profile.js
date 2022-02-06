@@ -1,6 +1,6 @@
-import "../styles/profile.scss";
+import "../../styles/profile.scss";
 import ProfileIcon from "./ProfileIcon";
-import users from "../data/users";
+import users from "../../data/users";
 
 function Profile(props) {
   const {

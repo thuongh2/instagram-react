@@ -48,6 +48,11 @@
             color: $font-color-secondary;
             font-size: 16px;
             font-weight: 300;
+            border: none;
+
+            &:focus{
+                outline: none;
+            }
         }
     }
 }
