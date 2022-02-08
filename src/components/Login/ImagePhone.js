@@ -20,9 +20,8 @@ function ImagePhone() {
     }, 3000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  });
 
-  let ok = "hello";
 
   return (
     <div className="imagePhone">
@@ -31,7 +30,7 @@ function ImagePhone() {
         transitionEnterTimeout={1000}
         transitionLeaveTimeout={3000}
       >
-        <img className="imageSlide" src={currentImage} />
+        <img className="imageSlide" src={currentImage} alt="imageSlide" />
       </ReactCSSTransitionGroup>
     </div>
   );

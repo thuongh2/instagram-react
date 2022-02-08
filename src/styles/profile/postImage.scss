@@ -1,0 +1,16 @@
+
+.postImage{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    align-self: start;
+}
+
+@media only screen and (max-width:720px){
+    .postImage{
+      
+    }
+}

@@ -7,7 +7,6 @@ function Cards() {
     return Math.floor(Math.random() * (max - min) ) + min;
   }
 
-  let numberRandom = getRndInteger(900, 1000);
   const commentsOne = [
     {
       user: "raffagrassetti",
@@ -59,7 +58,7 @@ function Cards() {
         accountName="rafaaa"
         storyBorder={true}
         image= {`https://picsum.photos/800/${getRndInteger(900, 1000)}`}
-        comments={commentsTwo}
+        comments={commentsThree}
         likeByText="dadatlacak"
         likeByNumber={90}
         hours={6}
@@ -68,7 +67,7 @@ function Cards() {
         accountName="rafaaa"
         storyBorder={true}
         image= {`https://picsum.photos/800/${getRndInteger(900, 1000)}`}
-        comments={commentsTwo}
+        comments={commentsOne}
         likeByText="dadatlacak"
         likeByNumber={90}
         hours={6}

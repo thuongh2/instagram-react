@@ -5,7 +5,7 @@ import CardMenu from "./CardMenu.js";
 import Comment from "./Comment.js";
 
 function Card(props) {
-  const { storyBorder, image, comments, likeByText, likeByNumber, hours } =
+  const { image, comments, likeByText, likeByNumber, hours } =
     props;
   return (
     <div className="card">

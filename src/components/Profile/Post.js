@@ -1,9 +1,9 @@
-import { Link, Outlet, Route, Routes } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "../../styles/profile/post.scss";
 
 function Post() {
   return (
-    <>
+    <div>
       <div className="post">
         <div className="item itemSelected">
           <Link to="post">POSTS</Link>
@@ -15,8 +15,8 @@ function Post() {
           <Link to="tagged">TAGGED</Link>
         </div>
       </div>
-      <Outlet/>
-    </>
+      <Outlet />
+    </div>
   );
 }
 

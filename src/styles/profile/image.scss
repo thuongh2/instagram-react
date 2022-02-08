@@ -1,0 +1,12 @@
+
+.imageIcon{
+    img{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .imageIcon{
+        width: 33%;
+    }
+}

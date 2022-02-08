@@ -1,8 +1,9 @@
 import "../../styles/footer.scss";
 
-function Footer() {
+function Footer(props) {
+  const size = props.size;
   return (
-    <div className="footer">
+    <div className={`footer ${size}`}>
       <ul className="links">
         <li>About</li>
         <li>Help</li>

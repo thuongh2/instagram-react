@@ -2,6 +2,7 @@ import "../../styles/profile/profileMain.scss";
 import Navigation from "../Main/Navigation.js";
 import ProfileInfo from "./ProfileInfo.js";
 import Post from "./Post.js";
+import Footer from "../Main/Footer";
 
 function ProfileMain() {
   return (
@@ -11,8 +12,11 @@ function ProfileMain() {
         <div className="profileInfo">
           <ProfileInfo />
         </div>
-        <div className="photo">
-          <Post />
+
+        <Post />
+
+        <div>
+          <Footer size="big"/>
         </div>
       </div>
     </div>
