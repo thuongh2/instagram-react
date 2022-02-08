@@ -1,6 +1,6 @@
 import "../../styles/login/formLogin.scss";
 import { AiFillFacebook } from "react-icons/ai";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function FormLogin() {
   return (

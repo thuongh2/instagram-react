@@ -1,0 +1,90 @@
+@import "variables";
+
+.profileIn {
+  display: flex;
+  width: 935px;
+  height: 200px;
+  justify-content: left;
+  font-size: 16px;
+
+  .profileIcon {
+    flex-basis: 290px;
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+
+  .info {
+    flex-basis: auto;
+    min-width: 400px;
+
+    .username {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 14px;
+
+      h2 {
+        font-weight: 300;
+      }
+
+      .button {
+        align-self: center;
+        margin: 0 30px;
+        button {
+          border-radius: 3px;
+          background-color: white;
+          border: 1px solid $border-color-grey;
+          height: 30px;
+          font-weight: 600;
+        }
+      }
+
+      .circleButoon {
+        align-self: center;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    .following {
+      display: flex;
+      margin-bottom: 10px;
+
+      .item {
+        width: 120px;
+      }
+    }
+
+    .name {
+      font-weight: 600;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .profileIn {
+
+    .profileIcon {
+      width: 77px;
+      height: 77px;
+    }
+    .info {
+    .username{
+        display:inline;
+    }
+      .name {
+        display: none !important;
+      }
+
+      .info {
+      }
+
+      .following {
+        display: none !important;
+      }
+    }
+  }
+}
